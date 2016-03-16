@@ -1,0 +1,31 @@
+<h2>Course</h2>
+<a class="btn" href="/courses/new">Add Artist</a>
+
+<div class="courses">
+  <% @courses.each do |course| %>
+  <div class="row">
+    <img src="<%= course.photo_url %>" alt="<%= course.name %> photo">
+    <ul>
+      <li>
+        <h2>
+          <a href="/courses/<%= course.id %>">
+            <%= course.name %>
+          </a>
+        </h2>
+      </li>
+      <li>
+        <a href="/courses/<%= course.id %>/edit">
+          Edit
+        </a>
+      </li>
+      <li>
+        <li>
+          <form method="/courses/<%= course.id %>/delete" action="post">
+            <button>Delete</button>
+          </form>
+        </li>
+      </li>
+    </ul>
+  </div>
+  <% end %>
+</div>

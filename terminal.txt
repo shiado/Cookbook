@@ -1,0 +1,327 @@
+Last login: Mon Mar 14 14:49:17 on ttys000
+“Loading .bash_profile”
+“Hello . I hope you have a great session!”
+Melissas-MacBook-Pro:recipes melissakwek$ rake db:drop
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `initialize'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `new'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `connect'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+/Users/melissakwek/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+/Users/melissakwek/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:87:in `connection'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/postgresql_database_tasks.rb:6:in `connection'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/postgresql_database_tasks.rb:28:in `drop'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/database_tasks.rb:114:in `drop'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/database_tasks.rb:128:in `block in drop_current'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/database_tasks.rb:275:in `block in each_current_configuration'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/database_tasks.rb:274:in `each'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/database_tasks.rb:274:in `each_current_configuration'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/database_tasks.rb:127:in `drop_current'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/railties/databases.rake:28:in `block (2 levels) in <top (required)>'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/task.rb:248:in `call'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/task.rb:248:in `block in execute'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/task.rb:243:in `each'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/task.rb:243:in `execute'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/task.rb:187:in `block in invoke_with_call_chain'
+/Users/melissakwek/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/task.rb:180:in `invoke_with_call_chain'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/task.rb:173:in `invoke'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/application.rb:150:in `invoke_task'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/application.rb:106:in `block (2 levels) in top_level'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/application.rb:106:in `each'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/application.rb:106:in `block in top_level'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/application.rb:115:in `run_with_threads'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/application.rb:100:in `top_level'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/application.rb:78:in `block in run'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/application.rb:176:in `standard_exception_handling'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/lib/rake/application.rb:75:in `run'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/rake-11.1.1/bin/rake:33:in `<top (required)>'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/bin/rake:22:in `load'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/bin/rake:22:in `<main>'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+Couldn't drop cookbook_development
+Melissas-MacBook-Pro:recipes melissakwek$ rake db:drop
+Melissas-MacBook-Pro:recipes melissakwek$ rake db:create
+Melissas-MacBook-Pro:recipes melissakwek$ rake db:migrate
+== 20160314054725 CreateRecipe: migrating =====================================
+-- create_table(:recipes)
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /Users/melissakwek/Documents/WDI/Homework/Day21-Ruby/recipes/db/migrate/20160314054725_create_recipe.rb:9)
+   -> 0.0051s
+== 20160314054725 CreateRecipe: migrated (0.0052s) ============================
+
+== 20160314054746 CreateCourse: migrating =====================================
+-- create_table(:courses)
+   -> 0.0035s
+== 20160314054746 CreateCourse: migrated (0.0036s) ============================
+
+== 20160314054800 CreateIngredient: migrating =================================
+-- create_table(:ingredients)
+   -> 0.0035s
+== 20160314054800 CreateIngredient: migrated (0.0036s) ========================
+
+== 20160314064020 CreateIngredientsRecipesTable: migrating ====================
+-- create_join_table(:ingredients, :recipes)
+   -> 0.0015s
+== 20160314064020 CreateIngredientsRecipesTable: migrated (0.0015s) ===========
+
+Melissas-MacBook-Pro:recipes melissakwek$ atom .
+Melissas-MacBook-Pro:recipes melissakwek$ rake db:seed
+rake aborted!
+ActiveRecord::UnknownAttributeError: unknown attribute 'name' for Course.
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:59:in `rescue in _assign_attribute'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:54:in `_assign_attribute'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:41:in `block in assign_attributes'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `each'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `assign_attributes'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:566:in `init_attributes'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:281:in `initialize'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/persistence.rb:33:in `create'
+db/seeds.rb:9:in `<top (required)>'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/sinatra-activerecord-2.0.9/lib/sinatra/activerecord/rake/activerecord_4.rb:3:in `load_seed'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/database_tasks.rb:250:in `load_seed'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/railties/databases.rake:183:in `block (2 levels) in <top (required)>'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+NoMethodError: undefined method `name=' for #<Course id: nil, title: nil>
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activemodel-4.2.6/lib/active_model/attribute_methods.rb:433:in `method_missing'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:54:in `public_send'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:54:in `_assign_attribute'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:41:in `block in assign_attributes'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `each'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `assign_attributes'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:566:in `init_attributes'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:281:in `initialize'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/persistence.rb:33:in `create'
+db/seeds.rb:9:in `<top (required)>'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/sinatra-activerecord-2.0.9/lib/sinatra/activerecord/rake/activerecord_4.rb:3:in `load_seed'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/tasks/database_tasks.rb:250:in `load_seed'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/railties/databases.rake:183:in `block (2 levels) in <top (required)>'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/melissakwek/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+Melissas-MacBook-Pro:recipes melissakwek$ r1 = Recipe.create title: "pizza", description: "some crust and some toppings", servings: 4
+-bash: r1: command not found
+Melissas-MacBook-Pro:recipes melissakwek$ tux
+Loading development environment (Rack 1.3)
+>> r1 = Recipe.create title: "pizza", description: "some crust and some toppings", servings: 4
+D, [2016-03-14T15:19:31.901702 #5648] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:19:31.906321 #5648] DEBUG -- :   SQL (0.5ms)  INSERT INTO "recipes" ("title", "description", "servings", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["title", "pizza"], ["description", "some crust and some toppings"], ["servings", 4], ["created_at", "2016-03-14 07:19:31.903258"], ["updated_at", "2016-03-14 07:19:31.903258"]]
+D, [2016-03-14T15:19:31.910218 #5648] DEBUG -- :    (1.3ms)  COMMIT
+=> #<Recipe id: 3, title: "pizza", description: "some crust and some toppings", servings: 4, course_id: nil, created_at: "2016-03-14 07:19:31", updated_at: "2016-03-14 07:19:31">
+>> r2 = Recipe.create title: "pasta", description: "tastier with bolognese", servings: 3
+D, [2016-03-14T15:19:40.739523 #5648] DEBUG -- :    (0.3ms)  BEGIN
+D, [2016-03-14T15:19:40.743936 #5648] DEBUG -- :   SQL (0.4ms)  INSERT INTO "recipes" ("title", "description", "servings", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["title", "pasta"], ["description", "tastier with bolognese"], ["servings", 3], ["created_at", "2016-03-14 07:19:40.742717"], ["updated_at", "2016-03-14 07:19:40.742717"]]
+D, [2016-03-14T15:19:40.745776 #5648] DEBUG -- :    (1.3ms)  COMMIT
+=> #<Recipe id: 4, title: "pasta", description: "tastier with bolognese", servings: 3, course_id: nil, created_at: "2016-03-14 07:19:40", updated_at: "2016-03-14 07:19:40">
+>> i1 = Ingredient.create name: "tomatoes"
+D, [2016-03-14T15:19:48.163982 #5648] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:19:48.165455 #5648] DEBUG -- :   SQL (0.4ms)  INSERT INTO "ingredients" ("name") VALUES ($1) RETURNING "id"  [["name", "tomatoes"]]
+D, [2016-03-14T15:19:48.168534 #5648] DEBUG -- :    (2.6ms)  COMMIT
+=> #<Ingredient id: 3, name: "tomatoes", course_id: nil>
+>> i2 = Ingredient.create name: "beef"
+D, [2016-03-14T15:19:54.394117 #5648] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:19:54.397946 #5648] DEBUG -- :   SQL (0.4ms)  INSERT INTO "ingredients" ("name") VALUES ($1) RETURNING "id"  [["name", "beef"]]
+D, [2016-03-14T15:19:54.399740 #5648] DEBUG -- :    (1.2ms)  COMMIT
+=> #<Ingredient id: 4, name: "beef", course_id: nil>
+>> c1 = Course.create name: "main"
+ActiveRecord::UnknownAttributeError: unknown attribute 'name' for Course.
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:59:in `rescue in _assign_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:54:in `_assign_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:41:in `block in assign_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `each'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `assign_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:566:in `init_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:281:in `initialize'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/persistence.rb:33:in `create'
+    (ripl):5:in `<main>'
+>> c1 = Course.create name: "main"
+ActiveRecord::UnknownAttributeError: unknown attribute 'name' for Course.
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:59:in `rescue in _assign_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:54:in `_assign_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:41:in `block in assign_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `each'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `assign_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:566:in `init_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:281:in `initialize'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/persistence.rb:33:in `create'
+    (ripl):6:in `<main>'
+>> c1 = Course.create name: "main"
+ActiveRecord::UnknownAttributeError: unknown attribute 'name' for Course.
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:59:in `rescue in _assign_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:54:in `_assign_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:41:in `block in assign_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `each'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `assign_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:566:in `init_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/core.rb:281:in `initialize'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/persistence.rb:33:in `create'
+    (ripl):7:in `<main>'
+>> c1 = Course.create title: "main"
+D, [2016-03-14T15:20:34.069694 #5648] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:20:34.074593 #5648] DEBUG -- :   SQL (0.7ms)  INSERT INTO "courses" ("title") VALUES ($1) RETURNING "id"  [["title", "main"]]
+D, [2016-03-14T15:20:34.076391 #5648] DEBUG -- :    (1.4ms)  COMMIT
+=> #<Course id: 1, title: "main">
+>> r1.course = c1
+=> #<Course id: 1, title: "main">
+>> r1.save
+D, [2016-03-14T15:20:47.831602 #5648] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:20:47.839163 #5648] DEBUG -- :   SQL (0.5ms)  UPDATE "recipes" SET "course_id" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3  [["course_id", 1], ["updated_at", "2016-03-14 07:20:47.834248"], ["id", 3]]
+D, [2016-03-14T15:20:47.840680 #5648] DEBUG -- :    (1.2ms)  COMMIT
+=> true
+>> r2.course = c1
+=> #<Course id: 1, title: "main">
+>> r2.save
+D, [2016-03-14T15:21:02.787212 #5648] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:21:02.791999 #5648] DEBUG -- :   SQL (0.4ms)  UPDATE "recipes" SET "course_id" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3  [["course_id", 1], ["updated_at", "2016-03-14 07:21:02.790605"], ["id", 4]]
+D, [2016-03-14T15:21:02.793534 #5648] DEBUG -- :    (1.2ms)  COMMIT
+=> true
+>> c1.reload
+D, [2016-03-14T15:21:07.928347 #5648] DEBUG -- :   Course Load (0.3ms)  SELECT  "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT 1  [["id", 1]]
+=> #<Course id: 1, title: "main">
+>> c1.recipes
+D, [2016-03-14T15:21:21.006248 #5648] DEBUG -- :   Recipe Load (0.3ms)  SELECT "recipes".* FROM "recipes" WHERE "recipes"."course_id" = $1  [["course_id", 1]]
+=> #<ActiveRecord::Associations::CollectionProxy [#<Recipe id: 3, title: "pizza", description: "some crust and some toppings", servings: 4, course_id: 1, created_at: "2016-03-14 07:19:31", updated_at: "2016-03-14 07:20:47">, #<Recipe id: 4, title: "pasta", description: "tastier with bolognese", servings: 3, course_id: 1, created_at: "2016-03-14 07:19:40", updated_at: "2016-03-14 07:21:02">]>
+>> r1.ingredients << i1
+D, [2016-03-14T15:21:28.442730 #5648] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:21:28.443406 #5648] DEBUG -- :    (0.2ms)  ROLLBACK
+ActiveModel::MissingAttributeError: can't write unknown attribute `recipe_id`
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute.rb:138:in `with_value_from_database'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_set.rb:39:in `write_from_user'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_methods/write.rb:74:in `write_attribute_with_type_cast'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_methods/write.rb:56:in `write_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:97:in `write_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_methods.rb:373:in `[]='
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/association.rb:195:in `block in set_owner_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/association.rb:195:in `each'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/association.rb:195:in `set_owner_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/has_many_association.rb:35:in `insert_record'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:563:in `block (2 levels) in concat_records'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:408:in `replace_on_target'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:403:in `add_to_target'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:562:in `block in concat_records'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:560:in `each'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:560:in `concat_records'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/has_many_association.rb:180:in `concat_records'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:168:in `block in concat'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:183:in `block in transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/transactions.rb:220:in `transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:182:in `transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:168:in `concat'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_proxy.rb:970:in `<<'
+    (ripl):15:in `<main>'
+>> r1.ingredients << i1
+D, [2016-03-14T15:24:37.607922 #5648] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:24:37.610449 #5648] DEBUG -- :    (0.3ms)  ROLLBACK
+ActiveModel::MissingAttributeError: can't write unknown attribute `recipe_id`
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute.rb:138:in `with_value_from_database'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_set.rb:39:in `write_from_user'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_methods/write.rb:74:in `write_attribute_with_type_cast'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_methods/write.rb:56:in `write_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:97:in `write_attribute'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/attribute_methods.rb:373:in `[]='
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/association.rb:195:in `block in set_owner_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/association.rb:195:in `each'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/association.rb:195:in `set_owner_attributes'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/has_many_association.rb:35:in `insert_record'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:563:in `block (2 levels) in concat_records'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:408:in `replace_on_target'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:403:in `add_to_target'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:562:in `block in concat_records'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:560:in `each'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:560:in `concat_records'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/has_many_association.rb:180:in `concat_records'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:168:in `block in concat'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:183:in `block in transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/transactions.rb:220:in `transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:182:in `transaction'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_association.rb:168:in `concat'
+    /Users/melissakwek/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.6/lib/active_record/associations/collection_proxy.rb:970:in `<<'
+    (ripl):16:in `<main>'
+>> exit
+Melissas-MacBook-Pro:recipes melissakwek$ tux
+^[[ALoading development environment (Rack 1.3)
+>> Recipe.first.ingredients << Ingredient.first
+D, [2016-03-14T15:25:22.653338 #5683] DEBUG -- :   Recipe Load (0.8ms)  SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."id" ASC LIMIT 1
+D, [2016-03-14T15:25:22.678113 #5683] DEBUG -- :   Ingredient Load (0.5ms)  SELECT  "ingredients".* FROM "ingredients"  ORDER BY "ingredients"."id" ASC LIMIT 1
+D, [2016-03-14T15:25:22.683506 #5683] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:25:22.692724 #5683] DEBUG -- :   SQL (0.4ms)  INSERT INTO "ingredients_recipes" ("recipe_id", "ingredient_id") VALUES ($1, $2)  [["recipe_id", 1], ["ingredient_id", 1]]
+D, [2016-03-14T15:25:22.694392 #5683] DEBUG -- :    (1.2ms)  COMMIT
+D, [2016-03-14T15:25:22.700145 #5683] DEBUG -- :   Ingredient Load (0.3ms)  SELECT "ingredients".* FROM "ingredients" INNER JOIN "ingredients_recipes" ON "ingredients"."id" = "ingredients_recipes"."ingredient_id" WHERE "ingredients_recipes"."recipe_id" = $1  [["recipe_id", 1]]
+=> #<ActiveRecord::Associations::CollectionProxy [#<Ingredient id: 1, name: "tomatoes", course_id: nil>]>
+>> Recipe.first.ingredients << Ingredient.last
+D, [2016-03-14T15:26:20.034334 #5683] DEBUG -- :   Recipe Load (3.6ms)  SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."id" ASC LIMIT 1
+D, [2016-03-14T15:26:20.036192 #5683] DEBUG -- :   Ingredient Load (0.5ms)  SELECT  "ingredients".* FROM "ingredients"  ORDER BY "ingredients"."id" DESC LIMIT 1
+D, [2016-03-14T15:26:20.036765 #5683] DEBUG -- :    (0.1ms)  BEGIN
+D, [2016-03-14T15:26:20.039836 #5683] DEBUG -- :   SQL (0.2ms)  INSERT INTO "ingredients_recipes" ("recipe_id", "ingredient_id") VALUES ($1, $2)  [["recipe_id", 1], ["ingredient_id", 4]]
+D, [2016-03-14T15:26:20.041396 #5683] DEBUG -- :    (1.1ms)  COMMIT
+D, [2016-03-14T15:26:20.043236 #5683] DEBUG -- :   Ingredient Load (1.1ms)  SELECT "ingredients".* FROM "ingredients" INNER JOIN "ingredients_recipes" ON "ingredients"."id" = "ingredients_recipes"."ingredient_id" WHERE "ingredients_recipes"."recipe_id" = $1  [["recipe_id", 1]]
+=> #<ActiveRecord::Associations::CollectionProxy [#<Ingredient id: 1, name: "tomatoes", course_id: nil>, #<Ingredient id: 4, name: "beef", course_id: nil>]>
+>> Recipe.last.ingredients << Ingredient.first
+D, [2016-03-14T15:26:42.072747 #5683] DEBUG -- :   Recipe Load (3.5ms)  SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."id" DESC LIMIT 1
+D, [2016-03-14T15:26:42.074451 #5683] DEBUG -- :   Ingredient Load (0.4ms)  SELECT  "ingredients".* FROM "ingredients"  ORDER BY "ingredients"."id" ASC LIMIT 1
+D, [2016-03-14T15:26:42.075029 #5683] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:26:42.078099 #5683] DEBUG -- :   SQL (0.2ms)  INSERT INTO "ingredients_recipes" ("recipe_id", "ingredient_id") VALUES ($1, $2)  [["recipe_id", 4], ["ingredient_id", 1]]
+D, [2016-03-14T15:26:42.082611 #5683] DEBUG -- :    (4.0ms)  COMMIT
+D, [2016-03-14T15:26:42.083575 #5683] DEBUG -- :   Ingredient Load (0.4ms)  SELECT "ingredients".* FROM "ingredients" INNER JOIN "ingredients_recipes" ON "ingredients"."id" = "ingredients_recipes"."ingredient_id" WHERE "ingredients_recipes"."recipe_id" = $1  [["recipe_id", 4]]
+=> #<ActiveRecord::Associations::CollectionProxy [#<Ingredient id: 1, name: "tomatoes", course_id: nil>]>
+>> Recipe.last.ingredients << Ingredient.last
+D, [2016-03-14T15:26:49.185193 #5683] DEBUG -- :   Recipe Load (2.5ms)  SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."id" DESC LIMIT 1
+D, [2016-03-14T15:26:49.186987 #5683] DEBUG -- :   Ingredient Load (0.5ms)  SELECT  "ingredients".* FROM "ingredients"  ORDER BY "ingredients"."id" DESC LIMIT 1
+D, [2016-03-14T15:26:49.187548 #5683] DEBUG -- :    (0.2ms)  BEGIN
+D, [2016-03-14T15:26:49.190548 #5683] DEBUG -- :   SQL (0.2ms)  INSERT INTO "ingredients_recipes" ("recipe_id", "ingredient_id") VALUES ($1, $2)  [["recipe_id", 4], ["ingredient_id", 4]]
+D, [2016-03-14T15:26:49.192063 #5683] DEBUG -- :    (1.1ms)  COMMIT
+D, [2016-03-14T15:26:49.193209 #5683] DEBUG -- :   Ingredient Load (0.5ms)  SELECT "ingredients".* FROM "ingredients" INNER JOIN "ingredients_recipes" ON "ingredients"."id" = "ingredients_recipes"."ingredient_id" WHERE "ingredients_recipes"."recipe_id" = $1  [["recipe_id", 4]]
+=> #<ActiveRecord::Associations::CollectionProxy [#<Ingredient id: 1, name: "tomatoes", course_id: nil>, #<Ingredient id: 4, name: "beef", course_id: nil>]>
+>> Ingredient.first.reload
+D, [2016-03-14T15:27:23.425147 #5683] DEBUG -- :   Ingredient Load (1.2ms)  SELECT  "ingredients".* FROM "ingredients"  ORDER BY "ingredients"."id" ASC LIMIT 1
+D, [2016-03-14T15:27:23.430985 #5683] DEBUG -- :   Ingredient Load (0.3ms)  SELECT  "ingredients".* FROM "ingredients" WHERE "ingredients"."id" = $1 LIMIT 1  [["id", 1]]
+=> #<Ingredient id: 1, name: "tomatoes", course_id: nil>
+>> Ingredient.first.recipes
+D, [2016-03-14T15:27:31.296515 #5683] DEBUG -- :   Ingredient Load (3.7ms)  SELECT  "ingredients".* FROM "ingredients"  ORDER BY "ingredients"."id" ASC LIMIT 1
+D, [2016-03-14T15:27:31.301138 #5683] DEBUG -- :   Recipe Load (0.4ms)  SELECT "recipes".* FROM "recipes" INNER JOIN "ingredients_recipes" ON "recipes"."id" = "ingredients_recipes"."recipe_id" WHERE "ingredients_recipes"."ingredient_id" = $1  [["ingredient_id", 1]]
+=> #<ActiveRecord::Associations::CollectionProxy [#<Recipe id: 1, title: "pizza", description: "some crust and some toppings", servings: 4, course_id: nil, created_at: "2016-03-14 07:18:58", updated_at: "2016-03-14 07:18:58">, #<Recipe id: 4, title: "pasta", description: "tastier with bolognese", servings: 3, course_id: 1, created_at: "2016-03-14 07:19:40", updated_at: "2016-03-14 07:21:02">]>
+>> Ingredient.first.courses
+D, [2016-03-14T15:28:16.870138 #5683] DEBUG -- :   Ingredient Load (2.8ms)  SELECT  "ingredients".* FROM "ingredients"  ORDER BY "ingredients"."id" ASC LIMIT 1
+D, [2016-03-14T15:28:16.875299 #5683] DEBUG -- :   Course Load (0.6ms)  SELECT "courses".* FROM "courses" INNER JOIN "recipes" ON "courses"."id" = "recipes"."course_id" INNER JOIN "ingredients_recipes" ON "recipes"."id" = "ingredients_recipes"."recipe_id" WHERE "ingredients_recipes"."ingredient_id" = $1  [["ingredient_id", 1]]
+=> #<ActiveRecord::Associations::CollectionProxy [#<Course id: 1, title: "main">]>
+>> 
